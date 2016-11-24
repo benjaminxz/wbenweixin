@@ -7,12 +7,13 @@ Page({
     userInfo: {}
   },
   //事件处理函数
-  bindViewTap: function() {
+ 
+  bindGetList: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../getList/getList'
     })
   },
-  bindGetOne: function() {
+   bindGetOne: function() {
     wx.navigateTo({
       url: '../getone/getone'
     })

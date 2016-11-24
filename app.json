@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/getone/getone"
+    "pages/getone/getone",
+    "pages/getList/getList"
   ],
   "window":{
     "backgroundTextStyle":"light",
