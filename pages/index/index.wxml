@@ -7,4 +7,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <button bindtap="bindGetOne">点击设置以上按钮disabled属性</button>
 </view>

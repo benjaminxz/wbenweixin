@@ -12,6 +12,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindGetOne: function() {
+    wx.navigateTo({
+      url: '../getone/getone'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container log-list">
+ 
+  <text class="" >this is get one data  : {{oneDate}}</text>
+
+</view>
+
