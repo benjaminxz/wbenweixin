@@ -8,14 +8,20 @@ Page({
   },
   //事件处理函数
  
-  bindGetList: function() {
+
+   bindGetOne: function() {
+    wx.navigateTo({
+      url: '../getone/getone'
+    })
+  },
+    bindGetList: function() {
     wx.navigateTo({
       url: '../getList/getList'
     })
   },
-   bindGetOne: function() {
+     bindPostString: function() {
     wx.navigateTo({
-      url: '../getone/getone'
+      url: '../postString/postString'
     })
   },
   onLoad: function () {

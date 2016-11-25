@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/getone/getone",
-    "pages/getList/getList"
+    "pages/getList/getList",
+    "pages/postString/postString"
   ],
   "window":{
     "backgroundTextStyle":"light",
