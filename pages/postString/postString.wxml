@@ -1,10 +1,10 @@
 <!--logs.wxml-->
 <view class="container log-list">
  
-  <text class="" > so : {{postOneDate}}</text>
+  <text class="" > {{resultDate}}</text>
     <input placeholder="输入值" auto-focus bindinput="bindKeyInput"/>
 
- <button bindtap="bindPostButtonTap">使得输入框获取焦点</button>
+ <button bindtap="bindPostButtonTap">输入想要保存的值</button>
 
 </view>
 

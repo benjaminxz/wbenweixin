@@ -1,8 +1,7 @@
 
 Page({
     data: {
-        logs: [],
-        postOneDate: "",
+        resultDate: "",
         currentInputData:""
     },
     
@@ -13,14 +12,14 @@ Page({
                var that = this;
         wx.request({
             url: 'http://www.bjmwebapi.com/api/yys',
-            data: {NAME:"sss"},
+            data: {NAME:that.data.currentInputData},
             method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
             // header: {}, // 设置请求的 header
             success: function (res) {
                 console.log(res.data)
                 // success
                 that.setData({
-                    postOneDate: res.data
+                    resultDate: res.data
                 });
             },
             fail: function () {
