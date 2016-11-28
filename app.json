@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/getone/getone",
     "pages/getList/getList",
-    "pages/postString/postString"
+    "pages/postString/postString",
+    "pages/deleteFromList/deleteFromList"
   ],
   "window":{
     "backgroundTextStyle":"light",

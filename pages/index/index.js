@@ -24,6 +24,11 @@ Page({
       url: '../postString/postString'
     })
   },
+  bindDeleteList: function() {
+    wx.navigateTo({
+      url: '../deleteFromList/deleteFromList'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

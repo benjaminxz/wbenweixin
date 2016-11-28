@@ -1,0 +1,7 @@
+<!--pages/deleteFromList/deleteFromList.wxml-->
+<view class="container log-list">
+  <view class="section" wx:for="{{listDate}}">
+    <text class="inline">{{item.apiCrudID}}</text>
+     <text class="inline">{{item.apiName}}</text>
+  </view>
+</view>
