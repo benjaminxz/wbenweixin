@@ -4,6 +4,6 @@
   <view class="section" wx:for="{{listDate}}">
     <text class="inline">{{item.apiCrudID}}</text>
     <text class="inline">{{item.apiName}}</text>
-    <button style="float:right" class="inline" bindtap="deleteItem" data-key="{{item.apiCrudID}}">删除</button>
+    <button style="float:right" class="inline" bindtap="deleteItem" data-key="{{item.apiCrudID}}"  data-index="{{index}}" >删除</button>
   </view>
 </view>

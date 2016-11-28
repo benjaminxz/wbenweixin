@@ -17,7 +17,7 @@ Page({
 
         var listTemp = that.data.listDate
         //    listTemp.push({apiCrudID:333,apiName:222})/////
-        var index = listTemp.indexOf(e.target.dataset.key);
+        var index = e.target.dataset.index;
         listTemp.splice(index, 1);
         that.setData({
           listDate: listTemp
