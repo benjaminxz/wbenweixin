@@ -1,7 +1,9 @@
+
 <!--pages/deleteFromList/deleteFromList.wxml-->
 <view class="container log-list">
   <view class="section" wx:for="{{listDate}}">
     <text class="inline">{{item.apiCrudID}}</text>
-     <text class="inline">{{item.apiName}}</text>
+    <text class="inline">{{item.apiName}}</text>
+    <button style="float:right" class="inline" bindtap="deleteItem" data-key="{{item.apiCrudID}}">删除</button>
   </view>
 </view>
