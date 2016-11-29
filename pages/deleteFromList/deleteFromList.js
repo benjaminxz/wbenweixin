@@ -34,20 +34,37 @@ Page({
   },
   onLoad: function () {
     var that = this;
+    setTimeout(function () {//12\\
+      if (that.data.listDate.length == 0) {//12\\
+        wx.showToast({//12\\
+          title: '加载中',
+          icon: 'loading',
+          duration: 6000
+        })
+      }
+
+    }, 1000)
     wx.request({
       url: 'http://www.bjmwebapi.com/api/object',
       data: {},
       method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
       // header: {}, // 设置请求的 header
       success: function (res) {
+
         console.log(res.data)
         // success
         that.setData({
           listDate: res.data
         });
+        wx.hideToast()//12\\
       },
       fail: function () {
         // fail
+        wx.showToast({
+          title: '获取数据失败',
+          icon: 'success',
+          duration: 2000
+        })
       },
       complete: function () {
         // complete
