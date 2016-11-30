@@ -5,6 +5,7 @@
     "pages/getone/getone",
     "pages/getList/getList",
     "pages/postString/postString",
+    "pages/picture/picture",
     "pages/deleteFromList/deleteFromList"
   ],
   "window":{

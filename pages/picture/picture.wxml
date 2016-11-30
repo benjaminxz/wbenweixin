@@ -1,0 +1,9 @@
+
+
+<view class="container log-list">
+ 
+  <text class="" >this is get one data  : {{oneDate}}</text>
+ <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="aspectFill" src="{{oneDate}}"></image>
+
+</view>
+

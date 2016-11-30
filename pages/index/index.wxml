@@ -8,4 +8,5 @@
   <button bindtap="bindGetList">获得stringList</button>
   <button bindtap="bindPostString">保存一条string数据</button>
    <button bindtap="bindDeleteList">从list中删除数据</button>
+   <button bindtap="bindPicture">图片</button>
 </view>

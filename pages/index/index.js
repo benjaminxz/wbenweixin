@@ -29,6 +29,11 @@ Page({
       url: '../deleteFromList/deleteFromList'
     })
   },
+  bindPicture: function() {
+    wx.navigateTo({
+      url: '../picture/picture'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
