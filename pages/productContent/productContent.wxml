@@ -1,0 +1,9 @@
+<view class="section" wx:for="{{contentData}}">
+  <view wx:if="{{item.IsPicture==false}}">
+    <text>{{item.ContentTextd}}</text>
+  </view>
+  <view wx:elif="{{item.IsPicture==true}}">
+    <image style="background-color: #eeeeee;" mode="aspectFill" src="{{item.ContentPicture}}"></image>
+  </view>
+  <view wx:else> 3 </view>
+</view>

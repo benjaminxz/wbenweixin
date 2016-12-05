@@ -7,41 +7,48 @@ Page({
     userInfo: {}
   },
   //事件处理函数
- 
 
-   bindGetOne: function() {
+
+  bindGetOne: function () {
     wx.navigateTo({
       url: '../getone/getone'
     })
   },
-    bindGetList: function() {
+  bindGetList: function () {
     wx.navigateTo({
       url: '../getList/getList'
     })
   },
-     bindPostString: function() {
+  bindPostString: function () {
     wx.navigateTo({
       url: '../postString/postString'
     })
   },
-  bindDeleteList: function() {
+  bindDeleteList: function () {
     wx.navigateTo({
       url: '../deleteFromList/deleteFromList'
     })
   },
-  bindPicture: function() {
+  bindPicture: function () {
     wx.navigateTo({
       url: '../picture/picture'
     })
   },
+  bindProductContent: function () {
+    wx.navigateTo({
+      url: '../productContent/productContent'
+    })
+  },
+
+
   onLoad: function () {
     console.log('onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
+    app.getUserInfo(function (userInfo) {
       //更新数据
       that.setData({
-        userInfo:userInfo
+        userInfo: userInfo
       })
     })
   }
