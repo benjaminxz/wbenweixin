@@ -1,0 +1,8 @@
+<view >
+  <input type="text" bindinput="idInputEvent" placeholder="输入id进入"></input>
+  <icon bindtap="idClickEvent"  type="search" size="20"/>
+</view>
+<view >
+  <input type="text" bindinput="businessNameInputEvent" placeholder="输入id进入"></input>
+  <icon bindtap="businessNameClickEvent"  type="search" size="20"/>
+</view>

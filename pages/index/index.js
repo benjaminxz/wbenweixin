@@ -39,6 +39,11 @@ Page({
       url: '../productContent/productContent'
     })
   },
+   bindSearchBusiness: function () {
+    wx.navigateTo({
+      url: '../searchBusiness/searchBusiness'
+    })
+  },
 
 
   onLoad: function () {
