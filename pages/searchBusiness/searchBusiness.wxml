@@ -1,8 +1,13 @@
-<view >
+<view>
   <input type="text" bindinput="idInputEvent" placeholder="输入id进入"></input>
-  <icon bindtap="idClickEvent"  type="search" size="20"/>
+  <icon bindtap="idClickEvent" type="search" size="20" />
 </view>
-<view >
-  <input type="text" bindinput="businessNameInputEvent" placeholder="输入id进入"></input>
-  <icon bindtap="businessNameClickEvent"  type="search" size="20"/>
+<view>
+  <input type="text" bindinput="businessNameInputEvent" placeholder="输入名字搜索"></input>
+  <icon bindtap="businessNameClickEvent" type="search" size="20" />
+</view>
+<view class="section" wx:for="{{businessListData}}">
+  <view class="list-item" data-bid="{{item.ItemId}}" bindtap="toProductPage">
+    <text class="inline">{{item.BusinessName}}</text>
+  </view>
 </view>

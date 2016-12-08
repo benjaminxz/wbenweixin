@@ -1,2 +1,3 @@
-<!--pages/productList/productList.wxml-->
-<text>pages/productList/productList.wxml</text>
+<view class="section" wx:for="{{productData}}">
+  <text class="inline">{{item.ProductName}}</text>
+</view>
