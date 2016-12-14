@@ -20,7 +20,7 @@ Page({
   idClickEvent: function (e) {
 
     wx.navigateTo({
-      url: '../productList/productList?id=' + this.data.businessNameKey/////////
+      url: '../productList/productList?id=' + this.data.idKey/////////
     });
   },
 
