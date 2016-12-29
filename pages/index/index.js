@@ -44,7 +44,11 @@ Page({
       url: '../searchBusiness/searchBusiness'
     })
   },
-
+bindfirstVersions: function () {
+    wx.navigateTo({
+      url: '../firstVersions/firstVersions'
+    })
+  },
 
   onLoad: function () {
     console.log('onLoad')

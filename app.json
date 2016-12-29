@@ -9,6 +9,7 @@
     "pages/productContent/productContent",
     "pages/searchBusiness/searchBusiness",
     "pages/productList/productList",
+    "pages/firstVersions/firstVersions",
     "pages/deleteFromList/deleteFromList"
   ],
   "window": {

@@ -11,4 +11,5 @@
    <button bindtap="bindPicture">图片</button>
    <button bindtap="bindProductContent">ProductContent</button>
    <button bindtap="bindSearchBusiness">bindSearchBusiness</button>
+  <button bindtap="bindfirstVersions"> firstVersions</button>
 </view>
