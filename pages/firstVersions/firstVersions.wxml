@@ -19,8 +19,8 @@
             </view>
           </view>
           <image class="wx-image_RO5xv0" data-c_e_id="wx_image376bd4da" mode="aspectFit"
-                 src="http://www.bjmwebapi.com/Bjmwebapi/media/icons/shopping-cart.png"
-                 style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image: url(http://www.bjmwebapi.com/Bjmwebapi/media/icons/shopping-cart.png); "  />
+                 src="/images/shopping-cart.png"
+                 style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image: url(/images/shopping-cart.png); "  />
         </view>
       </navigator>
 
